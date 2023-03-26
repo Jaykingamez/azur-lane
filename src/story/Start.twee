@@ -1,0 +1,11 @@
+:: StoryTitle
+Azur Lane
+
+:: Start
+<<set $admiral = new setup.Admiral({name:"", crew:0,fuel:0,ammunition:0,steel:0,rareEarths:0})>>
+<<set $shipgirl = new setup.ShipGirl({level:1, name:"Z23", faction:"Iron Blood", type:"DD", luck:65, armor:"Light", speed:"42", health: "345", firepower:22, antiAir:28, torpedo:61, evasion:58, aviation:0, oilConsumption:2, reload:73, antiSubmarine:49, oxygen:0, ammunition:0, accuracy:64})>>
+Admiral simulator. Welcome Admiral.
+
+
+
+Your shipgirl is Z23. 
